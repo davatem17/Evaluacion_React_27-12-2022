@@ -1,38 +1,62 @@
-.App {
+
+
+.Titulo {
   text-align: center;
+  text-shadow: 2px 2px 5px blueviolet;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
   color: white;
+  background-color: blue;
+  text-align: center;
+  cursor: pointer;
+  width: 60%;
+  font-size: 18px;
+  display: flex;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.card button:hover {
+  opacity: 0.7;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.formulario {
+  text-align: center;
+  
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.formulario button {
+  border: none;
+  outline: 0;
+  padding: 5px;
+  color: white;
+  background-color: blue;
+  text-align: center;
+  cursor: pointer;
+  width: 43%;
+  font-size: 18px;
+  display: unset;
+  justify-content: right;  
+}
+.formulario input {
+  height: 24px;
 }
