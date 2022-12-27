@@ -1,9 +1,9 @@
 import React from 'react'
 
-const GiftCard = () => {
+const GifCard = () => {
   return (
-    <div>GiftCard</div>
+    <div>GifCard</div>
   )
 }
 
-export default GiftCard
+export default GifCard
