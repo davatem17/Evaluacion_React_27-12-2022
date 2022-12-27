@@ -1,19 +1,20 @@
 import React from "react";
 
-const GifCard = () => {
+const GifCard = ({gif}) => {
+  console.log(gif)
   return (
     <>
-      <div className="card">
+      {gif.map(res => <div className="card" key={res.id}>
         <img
-          src="/w3images/jeans3.jpg"
+          src={res.url}
           alt="Denim Jeans"
           style={{ width: "100%" }}
         />
-        
         <p>
           <button>Eliminar</button>
         </p>
-      </div>
+      </div>)}
+      
     </>
   );
 };
